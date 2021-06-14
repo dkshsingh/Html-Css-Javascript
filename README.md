@@ -1,2 +1,2 @@
 # Html-Css-Javascript
-web calculater using html css and liitlebit javascript
+web calculater using html css and  javascript
