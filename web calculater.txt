@@ -1,0 +1,61 @@
+<html>
+<head>
+<title>web calculater app</title>
+<style>
+    body{
+         
+     }
+#container{
+    width:270px;
+    height:320px;
+    background-color:black;
+    margin: 0px auto;
+    border-top: 40px groove red;
+    border-bottom: 40px rigid red;
+    box-shadow: 0px 0px 10px #323232;
+
+}
+input[type=text]{
+    width: 95%;
+    height: 30px;
+    margin: 6px;
+}
+input[type=button]{
+    width: 60px;
+    height: 30px;
+    margin: 2px;
+}
+</style>
+<body>
+    <h3 style="text-align:center;">WEB CALCULATER</h3>
+    <div id="container">
+        <form name="calcy">
+        <input type="text" name="deeksha"><br>
+        <input type="button" value="1" onclick="document.calcy.deeksha.value+=1">
+        <input type="button" value="2" onclick="document.calcy.deeksha.value+=2">
+        <input type="button" value="3" onclick="document.calcy.deeksha.value+=3">
+        <input type="button" value="4" onclick="document.calcy.deeksha.value+=4">
+        <br/><br/>
+        <input type="button" value="5" onclick="document.calcy.deeksha.value+=5">
+        <input type="button" value="6" onclick="document.calcy.deeksha.value+=6">
+        <input type="button" value="7" onclick="document.calcy.deeksha.value+=7">
+        <input type="button" value="8" onclick="document.calcy.deeksha.value+=8">
+        <br/><br/>
+        <input type="button" value="9" onclick="document.calcy.deeksha.value+=9">
+        <input type="button" value="0" onclick="document.calcy.deeksha.value+=0">
+        <input type="button" value="." onclick="document.calcy.deeksha.value+='.'">
+        <input type="button" value="+" onclick="document.calcy.deeksha.value+='+'">
+        <br/><br/>
+        <input type="button" value="-"  onclick="document.calcy.deeksha.value+='-'">
+        <input type="button" value="*" onclick="document.calcy.deeksha.value+='*'">
+        <input type="button" value="/" onclick="document.calcy.deeksha.value+='/'">
+        <input type="button" value="%" onclick="document.calcy.deeksha.value+='%'">
+        <br/><br/>
+        <input type="button" value="=" onclick="document.calcy.deeksha.value= eval(document.calcy.deeksha.value)">
+        <input type="button" value="cancel" onclick="document.calcy.deeksha.value=''">
+        
+        
+    </form>
+</div>
+    </body>
+</html>
