@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Email</title>
+</head>
+<link rel="stylesheet" href="style.css" class="rel">
+
+<body>
+    <section>
+        <div class="container">
+            <form action="https://formspree.io/f/mbjwvalg" method="POST" id="my-form">
+                <div class="form-group">
+                    <label fora="firstName">First Name</label>
+                    <input type="text" id="firstname" name="firstname">
+                </div>
+
+                <div class="form-group">
+                    <label for="laststName">Last Name</label>
+                    <input type="text" id="lastname" name="lastname">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                </div>
+
+                <div class="form-group">
+                    <label for="message"></label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+
+                <button type="submit">Submit</button>
+
+            </form>
+        </div>
+        <div id="status"></div>
+    </section>
+</body>
+
+</html>
